@@ -9,8 +9,6 @@ class Particle {
     pos2 = pos1.copy();
 
     vel1 = vel.copy();
-
-    lifetime = 0;
   }
 
   void updateParticle() {
