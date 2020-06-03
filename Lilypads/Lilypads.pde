@@ -17,7 +17,7 @@ SoundFile quack;
 
 
 void setup() {
-  size(1200, 600);
+  size(1920, 1080);
   duckImg = loadImage("duck.png");
 
   duck = new DuckObj(mid);

@@ -42,8 +42,10 @@ class ParticleSystem {
       stroke(c);
       strokeWeight(w);
 
-      line(WaveSystem.get(i-1).pos1.x, WaveSystem.get(i-1).pos1.y, WaveSystem.get(i).pos1.x, WaveSystem.get(i).pos1.y);
-      line(WaveSystem.get(i-1).pos2.x, WaveSystem.get(i-1).pos2.y, WaveSystem.get(i).pos2.x, WaveSystem.get(i).pos2.y);
+      line(WaveSystem.get(i-1).pos1.x, WaveSystem.get(i-1).pos1.y, 
+        WaveSystem.get(i).pos1.x, WaveSystem.get(i).pos1.y);
+      line(WaveSystem.get(i-1).pos2.x, WaveSystem.get(i-1).pos2.y,
+        WaveSystem.get(i).pos2.x, WaveSystem.get(i).pos2.y);
 
       WaveSystem.get(i).updateParticle();
     }

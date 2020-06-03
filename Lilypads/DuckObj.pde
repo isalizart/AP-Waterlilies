@@ -21,4 +21,4 @@ class DuckObj {
 
     system.createWave(duckDir, duckPos.x, duckPos.y);
   }
-}
+} //<>//

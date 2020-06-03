@@ -11,13 +11,6 @@ class Drops {
     speed = random(1.05, 1.00);
   }
 
-  /*Drops(x, y){
-   this.pos = new PVector(x, y);
-   size = 1;
-   maxSize = random(10, 20);
-   speed = random(1, 1.2);
-   }*/
-
   void drawDrops() {
     strokeWeight(1);
     stroke(#FFFFFF);

@@ -4,9 +4,6 @@ class Particle {
 
   PVector vel1;
 
-  int lifetime;
-  boolean dead;
-
   Particle(PVector vel, float x, float y) {
     pos1 = new PVector(x, y);
     pos2 = pos1.copy();
@@ -21,7 +18,5 @@ class Particle {
     pos2.sub(vel1);
 
     vel1.mult(0.97);
-
-    lifetime++;
   }
 }
